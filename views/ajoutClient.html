@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <title>ajout Client</title>
+</head>
+<body>
+    <div class="container col-6  mt-4 mb-3 border shadow align-items-center justify-content-around rounded ">
+        <form action="" id="Fourform" method="post">
+                <div class="col-12 align-items-center justify-content-center mt-2  mb-2">
+                    <label for="recipient-name" class="col-form-label col-5">Prenom</label>
+                    <input type="text" class="form-control" id="nameInput" name="nomF">
+                </div>
+                <div class="col-12 align-items-center justify-content-center mb-2">
+                    <label for="recipient-name" class="col-form-label col-5">Nom</label>
+                    <input type="text" class="form-control" id="nameInput" name="nomF">
+                </div>
+                <div class="col-12 align-items-center justify-content-center mb-2">
+                    <label for="recipient-name" class="col-form-label col-5">Tel</label>
+                    <input type="text" class="form-control" id="nameInput" name="nomF">
+                </div>
+                <div class="container col-12 d-flex align-items-center rounded mb-2">
+                    <label class="form-check-label" for="inlineCheckbox1">Sexe</label>
+                    <div class="form-check form-check-inline mx-3">
+                      <label class="form-check-label" for="inlineCheckbox1">F</label>
+                      <input class="form-check-input" type="radio" id="Depot" value="option1">
+                    </div>
+                    <div class="form-check form-check-inline mx-1">
+                      <label class="form-check-label" for="inlineCheckbox2">M</label>
+                        <input class="form-check-input" type="radio" id="Retrait" value="option2">
+                    </div>
+                </div>
+                <div class="col-12 align-items-center justify-content-center mb-2">
+                    <label for="recipient-name" class="col-form-label col-5">Fonction</label>
+                    <select id="inputType" class="form-select">
+                        <option selected>...</option>
+                        <option>...</option>
+                        <option>...</option>
+                        <option>...</option>
+                    </select>
+                </div>
+                <div class="col-12 align-items-center justify-content-center mb-2">
+                    <label for="recipient-name" class="col-form-label col-5">Photo</label>
+                    <input type="text" class="form-control" id="nameInput" name="nomF">
+                </div>
+                <div class="col-12 d-flex align-items-center justify-content-center mt-3 mb-3">
+                    <button type="button" class=" col-4 btn btn-primary" id="Valider">Enregistrer</button>
+                </div>
+        </form>
+    </div>
+ 
+
+    <script src="../src/script.js"></script>
+
+</body>
+</html>

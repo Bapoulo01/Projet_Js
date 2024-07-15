@@ -1,0 +1,38 @@
+{
+    "clients": [
+      {
+        "prenom": "Amadou",
+        "nom": "Ba",
+        "adresse": "Keur Massar",
+        "tel": "77",
+        "dette": {
+          "total_dette": 15000,
+          "montant_verse": 10000,
+          "montant_due": 0
+        }
+      },
+      {
+        "prenom": "Momo",
+        "nom": "Dieng Diallo",
+        "adresse": "Diamaguene",
+        "tel": "778087261",
+        "dette": {
+          "total_dette": 25000,
+          "montant_verse":10000,
+          "montant_due":0
+        }
+      },
+      {
+        "prenom": "Ibrahima",
+        "nom": "Mane",
+        "adresse": "Niarry Tally",
+        "tel": "770981212",
+        "dette": {
+          "total_dette": 35000,
+          "montant_verse":20000,
+          "montant_due":0
+        }
+      }
+    ]
+  }
+  
